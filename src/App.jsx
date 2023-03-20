@@ -8,7 +8,7 @@ import IndexPage from './pages/IndexPage'
 function App() {
   return (
     <Routes>
-      <Route index element={IndexPage} />
+      <Route index element={<IndexPage />} />
     </Routes>
   )
 }
